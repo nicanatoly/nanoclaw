@@ -113,7 +113,7 @@ legal/IP claims beyond documented open-source publication hygiene.
 - [ ] DNS points `nanoclaw.website` to GitHub Pages.
 - [ ] Website links back to this kit.
 - [ ] Collection sample card is prepared with public-safe metadata.
-- [ ] First external docs-fix or small PR is submitted.
+- [x] First external docs-fix or small PR is submitted.
 
 ## Next Build
 
