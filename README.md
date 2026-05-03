@@ -46,6 +46,7 @@ work are still evolving.
 - [Safety model](docs/SAFETY_MODEL.md)
 - [Integration map](docs/INTEGRATION_MAP.md)
 - [Futures reconstruction](docs/FUTURES_RECONSTRUCTION.md)
+- [Exhibition kit](docs/EXHIBITION_KIT.md)
 - [Open-source publication notes](docs/IP_PUBLICATION.md)
 - [Website status](docs/WEBSITE_STATUS.md)
 
