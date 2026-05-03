@@ -1,7 +1,7 @@
 /**
  * Cross-platform detection utilities for NanoClaw setup.
  */
-import { execSync } from 'child_process';
+import { execFileSync, execSync } from 'child_process';
 import fs from 'fs';
 import os from 'os';
 
@@ -107,8 +107,14 @@ export function getNodePath(): string {
 }
 
 export function commandExists(name: string): boolean {
+  if (!/^[\w.-]+$/.test(name)) return false;
+
   try {
-    execSync(`command -v ${name}`, { stdio: 'ignore' });
+    if (os.platform() === 'win32') {
+      execFileSync('where.exe', [name], { stdio: 'ignore' });
+    } else {
+      execSync(`command -v ${name}`, { stdio: 'ignore' });
+    }
     return true;
   } catch {
     return false;

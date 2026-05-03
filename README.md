@@ -19,11 +19,13 @@
 <p align="center">Every agent gets its own isolated container inside a micro VM.<br>Hypervisor-level isolation. Millisecond startup. No complex setup.</p>
 
 **macOS (Apple Silicon)**
+
 ```bash
 curl -fsSL https://nanoclaw.dev/install-docker-sandboxes.sh | bash
 ```
 
 **Windows (WSL)**
+
 ```bash
 curl -fsSL https://nanoclaw.dev/install-docker-sandboxes-windows.sh | bash
 ```
@@ -31,6 +33,21 @@ curl -fsSL https://nanoclaw.dev/install-docker-sandboxes-windows.sh | bash
 > Currently supported on macOS (Apple Silicon) and Windows (x86). Linux support coming soon.
 
 <p align="center"><a href="https://nanoclaw.dev/blog/nanoclaw-docker-sandboxes">Read the announcement →</a>&nbsp; · &nbsp;<a href="docs/docker-sandboxes.md">Manual setup guide →</a></p>
+
+---
+
+## Project Status
+
+NanoClaw is active and early. The base runtime, Docker sandbox path, and
+skills-as-branches model are usable; new integrations and public presentation
+work are still evolving.
+
+- [Project status and roadmap](docs/PROJECT_STATUS.md)
+- [Safety model](docs/SAFETY_MODEL.md)
+- [Integration map](docs/INTEGRATION_MAP.md)
+- [Futures reconstruction](docs/FUTURES_RECONSTRUCTION.md)
+- [Open-source publication notes](docs/IP_PUBLICATION.md)
+- [Website status](docs/WEBSITE_STATUS.md)
 
 ---
 
@@ -73,6 +90,7 @@ Then run `/setup`. Claude Code handles everything: dependencies, authentication,
 **Customization = code changes.** No configuration sprawl. Want different behavior? Modify the code. The codebase is small enough that it's safe to make changes.
 
 **AI-native.**
+
 - No installation wizard; Claude Code guides setup.
 - No monitoring dashboard; ask Claude what's happening.
 - No debugging tools; describe the problem and Claude fixes it.
@@ -103,6 +121,7 @@ Talk to your assistant with the trigger word (default: `@Andy`):
 ```
 
 From the main channel (your self-chat), you can manage groups and tasks:
+
 ```
 @Andy list all scheduled tasks across groups
 @Andy pause the Monday briefing task
@@ -135,9 +154,11 @@ Users then run `/add-telegram` on their fork and get clean code that does exactl
 Skills we'd like to see:
 
 **Communication Channels**
+
 - `/add-signal` - Add Signal as a channel
 
 **Session Management**
+
 - `/clear` - Add a `/clear` command that compacts the conversation (summarizes context while preserving critical information in the same session). Requires figuring out how to trigger compaction programmatically via the Claude Agent SDK.
 
 ## Requirements
@@ -158,6 +179,7 @@ Single Node.js process. Channels are added via skills and self-register at start
 For the full architecture details, see [docs/SPEC.md](docs/SPEC.md).
 
 Key files:
+
 - `src/index.ts` - Orchestrator: state, message loop, agent invocation
 - `src/channels/registry.ts` - Channel registry (self-registration at startup)
 - `src/ipc.ts` - IPC watcher and task processing
@@ -196,6 +218,7 @@ ANTHROPIC_AUTH_TOKEN=your-token-here
 ```
 
 This allows you to use:
+
 - Local models via [Ollama](https://ollama.ai) with an API proxy
 - Open-source models hosted on [Together AI](https://together.ai), [Fireworks](https://fireworks.ai), etc.
 - Custom model deployments with Anthropic-compatible APIs
