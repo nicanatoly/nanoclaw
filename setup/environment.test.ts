@@ -75,7 +75,7 @@ describe('registered groups DB query', () => {
 describe('credentials detection', () => {
   it('detects ANTHROPIC_API_KEY in env content', () => {
     const content =
-      'SOME_KEY=value\nANTHROPIC_API_KEY=sk-ant-test123\nOTHER=foo';
+      'SOME_KEY=value\nANTHROPIC_API_KEY=sk-ant-placeholder-test-key\nOTHER=foo';
     const hasCredentials =
       /^(CLAUDE_CODE_OAUTH_TOKEN|ANTHROPIC_API_KEY)=/m.test(content);
     expect(hasCredentials).toBe(true);

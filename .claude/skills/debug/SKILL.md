@@ -70,8 +70,8 @@ Invalid API key · Please run /login
 **Fix:** Ensure `.env` file exists with either OAuth token or API key:
 ```bash
 cat .env  # Should show one of:
-# CLAUDE_CODE_OAUTH_TOKEN=sk-ant-oat01-...  (subscription)
-# ANTHROPIC_API_KEY=sk-ant-api03-...        (pay-per-use)
+# CLAUDE_CODE_OAUTH_TOKEN=sk-ant-placeholder-oauth-token  (subscription)
+# ANTHROPIC_API_KEY=sk-ant-placeholder-api-key        (pay-per-use)
 ```
 
 #### Root User Restriction
@@ -323,7 +323,7 @@ Run this to check common issues:
 echo "=== Checking NanoClaw Container Setup ==="
 
 echo -e "\n1. Authentication configured?"
-[ -f .env ] && (grep -q "CLAUDE_CODE_OAUTH_TOKEN=sk-" .env || grep -q "ANTHROPIC_API_KEY=sk-" .env) && echo "OK" || echo "MISSING - add CLAUDE_CODE_OAUTH_TOKEN or ANTHROPIC_API_KEY to .env"
+[ -f .env ] && (grep -Eq "^(CLAUDE_CODE_OAUTH_TOKEN|ANTHROPIC_API_KEY)=.+" .env) && echo "OK" || echo "MISSING - add CLAUDE_CODE_OAUTH_TOKEN or ANTHROPIC_API_KEY to .env"
 
 echo -e "\n2. Env file copied for container?"
 [ -f data/env/env ] && echo "OK" || echo "MISSING - will be created on first run"
@@ -347,3 +347,4 @@ echo -e "\n8. Session continuity working?"
 SESSIONS=$(grep "Session initialized" logs/nanoclaw.log 2>/dev/null | tail -5 | awk '{print $NF}' | sort -u | wc -l)
 [ "$SESSIONS" -le 2 ] && echo "OK (recent sessions reusing IDs)" || echo "CHECK - multiple different session IDs, may indicate resumption issues"
 ```
+

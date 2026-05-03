@@ -79,7 +79,7 @@ describe('credential-proxy', () => {
   }
 
   it('API-key mode injects x-api-key and strips placeholder', async () => {
-    proxyPort = await startProxy({ ANTHROPIC_API_KEY: 'sk-ant-real-key' });
+    proxyPort = await startProxy({ ANTHROPIC_API_KEY: 'sk-ant-placeholder-test-key' });
 
     await makeRequest(
       proxyPort,
@@ -94,7 +94,7 @@ describe('credential-proxy', () => {
       '{}',
     );
 
-    expect(lastUpstreamHeaders['x-api-key']).toBe('sk-ant-real-key');
+    expect(lastUpstreamHeaders['x-api-key']).toBe('sk-ant-placeholder-test-key');
   });
 
   it('OAuth mode replaces Authorization when container sends one', async () => {
@@ -144,7 +144,7 @@ describe('credential-proxy', () => {
   });
 
   it('strips hop-by-hop headers', async () => {
-    proxyPort = await startProxy({ ANTHROPIC_API_KEY: 'sk-ant-real-key' });
+    proxyPort = await startProxy({ ANTHROPIC_API_KEY: 'sk-ant-placeholder-test-key' });
 
     await makeRequest(
       proxyPort,
@@ -170,7 +170,7 @@ describe('credential-proxy', () => {
 
   it('returns 502 when upstream is unreachable', async () => {
     Object.assign(mockEnv, {
-      ANTHROPIC_API_KEY: 'sk-ant-real-key',
+      ANTHROPIC_API_KEY: 'sk-ant-placeholder-test-key',
       ANTHROPIC_BASE_URL: 'http://127.0.0.1:59999',
     });
     proxyServer = await startCredentialProxy(0);
@@ -190,3 +190,4 @@ describe('credential-proxy', () => {
     expect(res.body).toBe('Bad Gateway');
   });
 });
+
