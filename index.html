@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NanoClaw | Nic Anatoly</title>
+    <meta
+      name="description"
+      content="NanoClaw, персональный digital identity landing page Nic Anatoly на домене nanoclaw.website."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas class="particle-field" aria-hidden="true"></canvas>
+
+    <main class="site-shell">
+      <section class="hero" id="top" aria-label="NanoClaw">
+        <div class="hero__image depth-layer" data-depth="0.018" aria-hidden="true"></div>
+        <div class="hero__shade" aria-hidden="true"></div>
+        <div class="hero__orbit depth-layer" data-depth="0.05" aria-hidden="true"></div>
+        <div class="hero__slashes depth-layer" data-depth="0.14" aria-hidden="true"></div>
+        <div class="hero__grid depth-layer" data-depth="0.03" aria-hidden="true"></div>
+        <div class="hero__noise" aria-hidden="true"></div>
+
+        <nav class="topbar" aria-label="Main navigation">
+          <a class="brand-mark" href="#top" aria-label="NanoClaw home">
+            <span>NC</span>
+          </a>
+
+          <div class="topbar__cluster">
+            <div class="topbar__links">
+              <a href="#alias" data-i18n="navAlias">Смысл</a>
+              <a href="#layers" data-i18n="navLayers">Слои</a>
+              <a href="#contact" data-i18n="navContact">Связь</a>
+            </div>
+
+            <div class="language-switch" aria-label="Language switch">
+              <button class="lang-button is-active" type="button" data-lang="ru">RU</button>
+              <button class="lang-button" type="button" data-lang="en">EN</button>
+            </div>
+          </div>
+        </nav>
+
+        <div class="hero__content reveal">
+          <p class="eyebrow" data-i18n="heroEyebrow">Nic Anatoly alias</p>
+          <h1>NanoClaw</h1>
+          <p class="hero__copy" data-i18n="heroCopy">
+            Псевдоним Анатолия. Точность, энергия и цифровой след.
+          </p>
+          <div class="hero__actions" aria-label="Primary actions">
+            <a class="button button--primary" href="#contact" data-i18n="heroContact">Связаться</a>
+            <a class="button button--ghost" href="https://github.com/" target="_blank" rel="noreferrer" data-contact-link="github">GitHub</a>
+          </div>
+        </div>
+
+        <aside class="domain-strip reveal" aria-label="Domain">
+          <span>nanoclaw.website</span>
+          <span data-i18n="domainStatus">domain secured</span>
+        </aside>
+      </section>
+
+      <section class="alias-section" id="alias" aria-label="About NanoClaw">
+        <div class="section-copy reveal">
+          <p class="section-kicker">alias signal</p>
+          <h2 data-i18n="aliasTitle">Имя звучит как тонкий след по стеклу.</h2>
+          <p data-i18n="aliasText">
+            NanoClaw соединяет микроскопическую точность nano и резкий,
+            узнаваемый след claw. Это ник для цифрового пространства: быстрый,
+            чистый, технологичный и запоминающийся.
+          </p>
+        </div>
+
+        <div class="signal-meter reveal" aria-hidden="true">
+          <span style="--level: 88%"></span>
+          <span style="--level: 62%"></span>
+          <span style="--level: 74%"></span>
+          <span style="--level: 96%"></span>
+          <span style="--level: 52%"></span>
+        </div>
+      </section>
+
+      <section class="layers-section" id="layers" aria-label="Identity layers">
+        <div class="section-heading reveal">
+          <p class="section-kicker">three layers</p>
+          <h2 data-i18n="layersTitle">Многослойная айдентика</h2>
+        </div>
+
+        <div class="layer-list">
+          <article class="identity-tile reveal">
+            <span class="tile-number">01</span>
+            <h3>Nano</h3>
+            <p data-i18n="nanoText">Точность, микроструктура, интеллект.</p>
+          </article>
+          <article class="identity-tile reveal">
+            <span class="tile-number">02</span>
+            <h3>Claw</h3>
+            <p data-i18n="clawText">След, энергия, решительность.</p>
+          </article>
+          <article class="identity-tile reveal">
+            <span class="tile-number">03</span>
+            <h3>Anatoly</h3>
+            <p data-i18n="anatolyText">Человеческое ядро, стиль, характер.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="signature-section" aria-label="NanoClaw signature">
+        <div class="signature-lockup reveal">
+          <p class="section-kicker">visual lockup</p>
+          <div class="glyph" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2>NanoClaw</h2>
+          <p>Nic Anatoly</p>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-label="Contact NanoClaw">
+        <div class="contact-copy reveal">
+          <p class="section-kicker">feedback channel</p>
+          <h2 data-i18n="contactTitle">Оставь след. Напиши NanoClaw.</h2>
+          <p data-i18n="contactText">
+            Быстрый вход в коммуникацию: репозитории, сообщения, почта и
+            рабочие каналы в одном цифровом контуре.
+          </p>
+        </div>
+
+        <div class="contact-grid reveal">
+          <a class="contact-link" href="https://github.com/" target="_blank" rel="noreferrer" data-contact-link="github">
+            <span>GH</span>
+            <strong>GitHub</strong>
+          </a>
+          <a class="contact-link" href="https://t.me/" target="_blank" rel="noreferrer" data-contact-link="telegram">
+            <span>TG</span>
+            <strong>Telegram</strong>
+          </a>
+          <a class="contact-link" href="mailto:hello@nanoclaw.website" data-contact-link="email">
+            <span>@</span>
+            <strong>Email</strong>
+          </a>
+          <a class="contact-link" href="https://discord.com/" target="_blank" rel="noreferrer" data-contact-link="discord">
+            <span>DX</span>
+            <strong>Discord</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
