@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nanoclaw.website/schemas/agentic-payment-receipt.schema.json",
+  "title": "NanoClaw Agentic Payment Receipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "receipt_id",
+    "status",
+    "created_at",
+    "project",
+    "action",
+    "human_review",
+    "asset_reference",
+    "payment_reference"
+  ],
+  "properties": {
+    "receipt_id": {
+      "type": "string",
+      "pattern": "^nc-[a-z0-9-]+$"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "approved", "executed", "void"]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "project": {
+      "type": "string"
+    },
+    "action": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "summary", "tool_boundary"],
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "tool_boundary": {
+          "type": "string"
+        }
+      }
+    },
+    "human_review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required", "reviewer", "decision"],
+      "properties": {
+        "required": {
+          "type": "boolean"
+        },
+        "reviewer": {
+          "type": "string"
+        },
+        "decision": {
+          "type": "string",
+          "enum": ["pending", "approved", "rejected"]
+        }
+      }
+    },
+    "asset_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["object_id", "public_asset", "hash"],
+      "properties": {
+        "object_id": {
+          "type": "string"
+        },
+        "public_asset": {
+          "type": "boolean"
+        },
+        "hash": {
+          "type": "string"
+        }
+      }
+    },
+    "payment_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required", "rail", "amount", "currency", "settlement_status"],
+      "properties": {
+        "required": {
+          "type": "boolean"
+        },
+        "rail": {
+          "type": "string"
+        },
+        "amount": {
+          "type": "string"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "settlement_status": {
+          "type": "string",
+          "enum": ["not_applicable", "pending", "settled", "failed", "void"]
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
