@@ -18,6 +18,13 @@ any real payment or onchain step exists.
   source assets.
 - Make future x402 or wallet integrations auditable before they become active.
 
+## Examples
+
+- `nc-ph-2026-001-01-receipt.json`: draft provenance preview receipt.
+- `nc-collector-preview-request.json`: draft collector-preview request where
+  the agent can prepare public-safe metadata but cannot publish assets, connect
+  wallets, mint NFTs, or execute payment.
+
 ## Status Values
 
 - `draft`: a proposed action, not approved.
