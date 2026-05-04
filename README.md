@@ -47,6 +47,7 @@ work are still evolving.
 - [Integration map](docs/INTEGRATION_MAP.md)
 - [Futures reconstruction](docs/FUTURES_RECONSTRUCTION.md)
 - [RWA and agentic payments research](research/RWA_AGENTIC_PAYMENTS_WATCHLIST.md)
+- [Human approval boundaries](docs/HUMAN_APPROVAL_BOUNDARIES.md)
 - [Agentic payment receipt example](examples/agentic-payment-receipts/README.md)
 - [Exhibition kit](docs/EXHIBITION_KIT.md)
 - [Open-source publication notes](docs/IP_PUBLICATION.md)

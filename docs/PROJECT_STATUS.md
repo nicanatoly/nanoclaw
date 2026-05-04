@@ -31,6 +31,8 @@ customize their own fork.
 - Public website and exhibition kit.
 - Integration notes with adjacent open-source projects.
 - RWA, agentic-payments, and provenance research notes.
+- Human approval boundaries for wallets, payments, minting, DNS, donations, and
+  private asset publication.
 
 ## Near-Term Roadmap
 
