@@ -30,6 +30,7 @@ customize their own fork.
 - Larger agent swarms.
 - Public website and exhibition kit.
 - Integration notes with adjacent open-source projects.
+- RWA, agentic-payments, and provenance research notes.
 
 ## Near-Term Roadmap
 
@@ -39,6 +40,8 @@ customize their own fork.
 4. Build an integration map for adjacent open-source projects.
 5. Prepare a small exhibition/demo kit for public presentations.
 6. Add publication governance notes for ideas, docs, and AI-assisted work.
+7. Keep the RWA/agentic-payments research track current without making
+   financial, custody, or partnership claims.
 
 ## Contribution Fit
 

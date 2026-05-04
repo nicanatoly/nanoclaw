@@ -1,0 +1,29 @@
+{
+  "receipt_id": "nc-ph-2026-001-01-draft",
+  "status": "draft",
+  "created_at": "2026-05-04T07:38:01Z",
+  "project": "NanoClaw Series 001",
+  "action": {
+    "type": "collection_provenance_preview",
+    "summary": "Draft receipt for a future human-approved collector preview or paid expert review workflow.",
+    "tool_boundary": "No wallet, mint, transfer, DNS change, public post, or payment execution."
+  },
+  "human_review": {
+    "required": true,
+    "reviewer": "collection_owner",
+    "decision": "pending"
+  },
+  "asset_reference": {
+    "object_id": "NC-PH-2026-001-01",
+    "public_asset": false,
+    "hash": "not_recorded_in_public_example"
+  },
+  "payment_reference": {
+    "required": false,
+    "rail": "none",
+    "amount": "0",
+    "currency": "N/A",
+    "settlement_status": "not_applicable"
+  },
+  "notes": "This example is safe for public documentation only after review. It does not include a private image, wallet address, token, or transaction."
+}
