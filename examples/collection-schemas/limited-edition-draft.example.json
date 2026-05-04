@@ -1,0 +1,21 @@
+{
+  "edition_id": "nc-ed-public-safe-001",
+  "status": "draft",
+  "source_object_id": "nc-public-safe-object-001",
+  "edition_size": 13,
+  "minting": {
+    "planned": false,
+    "network": "none",
+    "contract": "none",
+    "status": "draft_only"
+  },
+  "rights_review": {
+    "required": true,
+    "status": "pending"
+  },
+  "human_approval": {
+    "required_before_mint": true,
+    "decision": "pending"
+  },
+  "notes": "Public-safe edition draft. No price, wallet, buyer, mint, transfer, or listing data."
+}
