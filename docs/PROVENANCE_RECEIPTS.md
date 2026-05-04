@@ -69,3 +69,5 @@ receipt should point to the required human approval instead of replacing it.
 See `examples/agentic-payment-receipts/nc-public-catalog-entry-review.json` for
 a catalog-entry review receipt that contains no private asset, wallet address,
 payment, mint, or collector data.
+
+For structured catalog and edition drafts, see `examples/collection-schemas/`.
