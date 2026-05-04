@@ -55,6 +55,8 @@ For cultural collections, the useful lane is provenance:
 That is different from yield-bearing collateral, investment exposure, or
 regulated custody. NanoClaw documentation should keep those categories separate.
 
+See also: [Cultural Provenance Is Not Yield-Bearing RWA](CULTURAL_PROVENANCE_NOT_RWA.md).
+
 ## Public Reply Rule
 
 When someone reacts to NanoClaw research, reply only when there is something
