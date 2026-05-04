@@ -34,6 +34,8 @@ The practical near-term work:
 - keep raw collection assets private until reviewed;
 - publish public metadata and previews only after rights review;
 - build signed or hash-based receipts before any minting;
+- publish public-safe provenance receipts before any collection publication,
+  payment rail, or minting workflow;
 - use GitHub for open research, catalog schemas, and reproducible runbooks;
 - treat wallet/payment integrations as human-approved tools, not autonomous
   actions.
