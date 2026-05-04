@@ -1,0 +1,29 @@
+{
+  "receipt_id": "nc-public-catalog-entry-review-001",
+  "status": "draft",
+  "created_at": "2026-05-04T12:00:00Z",
+  "project": "NanoClaw public-safe provenance examples",
+  "action": {
+    "type": "public_catalog_entry_review",
+    "summary": "Draft a public-safe catalog entry for human review without publishing private source assets or making custody, rights, payment, or edition claims.",
+    "tool_boundary": "The agent may prepare metadata, a review checklist, and a draft publication note. It cannot publish images, reveal local paths, connect wallets, mint NFTs, request payment, or claim ownership transfer."
+  },
+  "human_review": {
+    "required": true,
+    "reviewer": "collection_owner",
+    "decision": "pending"
+  },
+  "asset_reference": {
+    "object_id": "public-safe-example-object",
+    "public_asset": false,
+    "hash": "not_recorded_in_public_example"
+  },
+  "payment_reference": {
+    "required": false,
+    "rail": "none",
+    "amount": "0",
+    "currency": "N/A",
+    "settlement_status": "not_applicable"
+  },
+  "notes": "This receipt documents a review boundary only. It contains no private asset, local file path, wallet address, token, transaction, price, buyer data, or legal rights claim."
+}

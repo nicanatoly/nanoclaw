@@ -24,6 +24,11 @@ any real payment or onchain step exists.
 - `nc-collector-preview-request.json`: draft collector-preview request where
   the agent can prepare public-safe metadata but cannot publish assets, connect
   wallets, mint NFTs, or execute payment.
+- `nc-public-catalog-entry-review.json`: draft catalog-entry review where the
+  agent can prepare a public-safe record but cannot publish private source
+  assets or make custody, rights, payment, or edition claims.
+
+See also: [Provenance Receipts](../../docs/PROVENANCE_RECEIPTS.md).
 
 ## Status Values
 

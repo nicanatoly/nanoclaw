@@ -13,6 +13,7 @@ what should stay private until review.
 | `research/RWA_AGENTIC_PAYMENTS_WATCHLIST.md` | Shows that NanoClaw follows serious RWA, agentic-payments, and decentralized AI infrastructure. | Verify links and remove any source that looks unofficial. |
 | `research/RWA_AGENTIC_PAYMENTS_SCENARIOS.md` | Gives the project a thoughtful futures/research layer with seven scenarios. | Keep "not investment advice" language. |
 | `examples/agentic-payment-receipts/` | Demonstrates provenance/payment-action receipts without spending money. | Confirm examples contain no private asset URL, wallet address, or legal claim. |
+| `docs/PROVENANCE_RECEIPTS.md` | Explains the public-safe receipt vocabulary for collection review, catalog entries, and edition drafts. | Confirm it does not imply custody, minting, payment, ownership transfer, or rights clearance. |
 | `docs/PUBLICATION_PACK.md` | Makes the repo's publication boundary explicit. | Update this list as the public/private split changes. |
 
 ## Keep Private For Now
@@ -35,7 +36,9 @@ examples/
     README.md
     receipt.schema.json
     nc-ph-2026-001-01-receipt.json
+    nc-public-catalog-entry-review.json
 docs/
+  PROVENANCE_RECEIPTS.md
   PUBLICATION_PACK.md
 ```
 

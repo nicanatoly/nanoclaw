@@ -33,6 +33,7 @@ customize their own fork.
 - RWA, agentic-payments, and provenance research notes.
 - Human approval boundaries for wallets, payments, minting, DNS, donations, and
   private asset publication.
+- Provenance receipts for public-safe catalog and collector-preview drafts.
 
 ## Near-Term Roadmap
 
@@ -44,6 +45,8 @@ customize their own fork.
 6. Add publication governance notes for ideas, docs, and AI-assisted work.
 7. Keep the RWA/agentic-payments research track current without making
    financial, custody, or partnership claims.
+8. Expand public-safe provenance receipts before any collection publication,
+   payment rail, or minting workflow.
 
 ## Contribution Fit
 
