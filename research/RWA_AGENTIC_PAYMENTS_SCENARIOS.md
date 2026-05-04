@@ -37,6 +37,8 @@ The practical near-term work:
 - use GitHub for open research, catalog schemas, and reproducible runbooks;
 - treat wallet/payment integrations as human-approved tools, not autonomous
   actions.
+- keep cultural provenance language separate from yield-bearing RWA collateral
+  language.
 
 ## Repo Moves
 
