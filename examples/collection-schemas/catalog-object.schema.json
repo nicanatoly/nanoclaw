@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nanoclaw.website/schemas/catalog-object.schema.json",
+  "title": "NanoClaw Public-Safe Catalog Object",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "object_id",
+    "status",
+    "title",
+    "collection",
+    "public_media",
+    "rights_review",
+    "publication_boundary"
+  ],
+  "properties": {
+    "object_id": {
+      "type": "string",
+      "pattern": "^nc-[a-z0-9-]+$"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "reviewed", "published", "withdrawn"]
+    },
+    "title": {
+      "type": "string"
+    },
+    "collection": {
+      "type": "string"
+    },
+    "public_media": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["available", "kind", "uri"],
+      "properties": {
+        "available": {
+          "type": "boolean"
+        },
+        "kind": {
+          "type": "string",
+          "enum": ["none", "thumbnail", "preview", "metadata_only"]
+        },
+        "uri": {
+          "type": "string"
+        }
+      }
+    },
+    "rights_review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required", "status", "reviewer"],
+      "properties": {
+        "required": {
+          "type": "boolean"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "reviewed", "not_applicable"]
+        },
+        "reviewer": {
+          "type": "string"
+        }
+      }
+    },
+    "publication_boundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["private_source_assets", "buyer_data", "wallet_data", "claims"],
+      "properties": {
+        "private_source_assets": {
+          "type": "string"
+        },
+        "buyer_data": {
+          "type": "string"
+        },
+        "wallet_data": {
+          "type": "string"
+        },
+        "claims": {
+          "type": "string"
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

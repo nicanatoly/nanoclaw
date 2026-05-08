@@ -1,0 +1,23 @@
+{
+  "object_id": "nc-public-safe-object-001",
+  "status": "draft",
+  "title": "Public-Safe Example Object",
+  "collection": "NanoClaw public examples",
+  "public_media": {
+    "available": false,
+    "kind": "metadata_only",
+    "uri": ""
+  },
+  "rights_review": {
+    "required": true,
+    "status": "pending",
+    "reviewer": "collection_owner"
+  },
+  "publication_boundary": {
+    "private_source_assets": "not_included",
+    "buyer_data": "not_included",
+    "wallet_data": "not_included",
+    "claims": "no ownership transfer, custody, yield, investment, or rights-clearance claim"
+  },
+  "notes": "Placeholder record for schema testing only."
+}

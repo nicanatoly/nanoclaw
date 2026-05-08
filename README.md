@@ -51,6 +51,7 @@ work are still evolving.
 - [Cultural provenance is not yield-bearing RWA](docs/CULTURAL_PROVENANCE_NOT_RWA.md)
 - [Provenance receipts](docs/PROVENANCE_RECEIPTS.md)
 - [Agentic payment receipt example](examples/agentic-payment-receipts/README.md)
+- [Collection schema examples](examples/collection-schemas/README.md)
 - [Exhibition kit](docs/EXHIBITION_KIT.md)
 - [Open-source publication notes](docs/IP_PUBLICATION.md)
 - [Website status](docs/WEBSITE_STATUS.md)

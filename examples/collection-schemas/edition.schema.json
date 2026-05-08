@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nanoclaw.website/schemas/edition.schema.json",
+  "title": "NanoClaw Edition Draft",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "edition_id",
+    "status",
+    "source_object_id",
+    "edition_size",
+    "minting",
+    "rights_review",
+    "human_approval"
+  ],
+  "properties": {
+    "edition_id": {
+      "type": "string",
+      "pattern": "^nc-ed-[a-z0-9-]+$"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "reviewed", "published", "void"]
+    },
+    "source_object_id": {
+      "type": "string"
+    },
+    "edition_size": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "minting": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["planned", "network", "contract", "status"],
+      "properties": {
+        "planned": {
+          "type": "boolean"
+        },
+        "network": {
+          "type": "string"
+        },
+        "contract": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["not_planned", "draft_only", "requires_approval", "completed"]
+        }
+      }
+    },
+    "rights_review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required", "status"],
+      "properties": {
+        "required": {
+          "type": "boolean"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "reviewed", "not_applicable"]
+        }
+      }
+    },
+    "human_approval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required_before_mint", "decision"],
+      "properties": {
+        "required_before_mint": {
+          "type": "boolean"
+        },
+        "decision": {
+          "type": "string",
+          "enum": ["pending", "approved", "rejected"]
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
