@@ -14,6 +14,9 @@ customize their own fork.
 - Skills-as-branches contribution model: active.
 - Public website: GitHub Pages is configured; DNS for `nanoclaw.website` is
   still pending.
+- Ecosystem operating model: active as a public docs layer.
+- Integration surfaces: active as a public map for GitHub, Bitrix24, website,
+  collection/NFT, x402/MCP/AgentKit, OpenTelemetry, and DeepTech links.
 
 ## Stable Enough To Try
 
@@ -34,6 +37,8 @@ customize their own fork.
 - Human approval boundaries for wallets, payments, minting, DNS, donations, and
   private asset publication.
 - Provenance receipts for public-safe catalog and collector-preview drafts.
+- Operational cadence for owner-authored public docs, releases, and external
+  docs-only contributions.
 
 ## Near-Term Roadmap
 
@@ -47,6 +52,8 @@ customize their own fork.
    financial, custody, or partnership claims.
 8. Expand public-safe provenance receipts before any collection publication,
    payment rail, or minting workflow.
+9. Use the weekly operating loop to keep activity useful, reviewable, and
+   low-noise.
 
 ## Contribution Fit
 
