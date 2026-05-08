@@ -73,3 +73,5 @@ x402 / MCP / AgentKit / OpenTelemetry
 4. Study MCP and Cloudflare Agents for one precise docs or vocabulary gap.
 5. Keep x402 PR #2186 monitored without generic follow-up comments.
 6. Expand public-safe collection schemas only after private/public review.
+7. Use `docs/MCP_CLOUDFLARE_AGENTKIT_MAPPING.md` as the planning map before
+   drafting any MCP, Cloudflare Agents, or AgentKit integration example.

@@ -23,6 +23,7 @@ what should stay private until review.
 | `docs/CURRICULUM_AND_LEARNING_PATHS.md` | Structures educational modules, exercises, and glossary. | Keep examples public-safe and non-credentialed. |
 | `docs/CONTRIBUTOR_ENTRYPOINTS.md` | Gives students, developers, researchers, maintainers, and partners a safe starting point. | Avoid private-only context and generic outreach. |
 | `docs/TRUST_ARCHITECTURE.md` | Defines evidence, reputation, operations, integration, and ethics boundaries. | Avoid hype, fake partnerships, and legal/financial overclaims. |
+| `docs/MCP_CLOUDFLARE_AGENTKIT_MAPPING.md` | Maps MCP tools, Cloudflare Agents state/workflows, and AgentKit wallet/action providers into NanoClaw approval boundaries. | Keep it research/planning only; do not imply production integration or wallet execution. |
 
 ## Keep Private For Now
 
@@ -58,6 +59,7 @@ docs/
   CURRICULUM_AND_LEARNING_PATHS.md
   CONTRIBUTOR_ENTRYPOINTS.md
   TRUST_ARCHITECTURE.md
+  MCP_CLOUDFLARE_AGENTKIT_MAPPING.md
   PROVENANCE_RECEIPTS.md
   PUBLICATION_PACK.md
 ```

@@ -82,6 +82,6 @@ These actions must remain separately approved:
 1. Keep `v0.1.3-collection-schemas` visible as the latest collection/provenance
    milestone.
 2. Monitor x402 PR #2186.
-3. Create a local MCP/Cloudflare Agents vocabulary note.
+3. Keep the MCP/Cloudflare Agents/AgentKit mapping current.
 4. Prepare the next owner-authored docs PR only if the change is narrow and
    public-safe.
