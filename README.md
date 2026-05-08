@@ -62,6 +62,7 @@ work are still evolving.
 - [Collection schema examples](examples/collection-schemas/README.md)
 - [Exhibition kit](docs/EXHIBITION_KIT.md)
 - [Open-source publication notes](docs/IP_PUBLICATION.md)
+- [Publication and IP governance](docs/PUBLICATION_AND_IP_GOVERNANCE.md)
 - [Website status](docs/WEBSITE_STATUS.md)
 
 ---
