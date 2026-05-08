@@ -10,6 +10,8 @@ small public improvements, safe research, and clear human approval boundaries.
 | Keep the repository alive | One small docs, schema, example, or issue update |
 | Maintain public trust | Releases and issues that explain what changed |
 | Learn from adjacent ecosystems | One local research note or mapping note |
+| Maintain the evidence base | One source verification or literature-index update |
+| Keep the education layer useful | One glossary, module, or exercise improvement |
 | Contribute externally with restraint | At most one precise docs-only PR when a real gap exists |
 | Protect private assets | Run public/private and secret scans before publishing |
 
@@ -40,7 +42,8 @@ small public improvements, safe research, and clear human approval boundaries.
 2. Update the relevant issue or release notes.
 3. Refresh the integration map and DeepTech queue.
 4. Review private/public boundaries for collection and NFT materials.
-5. Confirm no risky action happened without explicit human approval.
+5. Update the evidence/source index when a new claim is added.
+6. Confirm no risky action happened without explicit human approval.
 
 ## Human-Approved Actions
 

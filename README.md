@@ -44,6 +44,10 @@ work are still evolving.
 
 - [Project status and roadmap](docs/PROJECT_STATUS.md)
 - [Ecosystem operating model](docs/ECOSYSTEM_OPERATING_MODEL.md)
+- [Evidence and source index](docs/EVIDENCE_AND_SOURCE_INDEX.md)
+- [Curriculum and learning paths](docs/CURRICULUM_AND_LEARNING_PATHS.md)
+- [Contributor entrypoints](docs/CONTRIBUTOR_ENTRYPOINTS.md)
+- [Trust architecture](docs/TRUST_ARCHITECTURE.md)
 - [Safety model](docs/SAFETY_MODEL.md)
 - [Integration map](docs/INTEGRATION_MAP.md)
 - [Integration surfaces](docs/INTEGRATION_SURFACES.md)

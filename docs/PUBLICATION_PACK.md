@@ -19,6 +19,10 @@ what should stay private until review.
 | `docs/ECOSYSTEM_OPERATING_MODEL.md` | Explains why GitHub is the public engineering memory for NanoClaw. | Keep public/private and human-approval boundaries explicit. |
 | `docs/INTEGRATION_SURFACES.md` | Maps GitHub, Bitrix24, website, collection/NFT, x402/MCP/AgentKit, OpenTelemetry, and DeepTech surfaces. | Avoid implying partnerships or production integrations that do not exist. |
 | `docs/WEEKLY_OPERATING_LOOP.md` | Defines the low-noise weekly cadence for public work. | Keep risky actions behind explicit human approval. |
+| `docs/EVIDENCE_AND_SOURCE_INDEX.md` | Tracks sources, literature notes, and verification states. | Separate primary-source facts from hypotheses. |
+| `docs/CURRICULUM_AND_LEARNING_PATHS.md` | Structures educational modules, exercises, and glossary. | Keep examples public-safe and non-credentialed. |
+| `docs/CONTRIBUTOR_ENTRYPOINTS.md` | Gives students, developers, researchers, maintainers, and partners a safe starting point. | Avoid private-only context and generic outreach. |
+| `docs/TRUST_ARCHITECTURE.md` | Defines evidence, reputation, operations, integration, and ethics boundaries. | Avoid hype, fake partnerships, and legal/financial overclaims. |
 
 ## Keep Private For Now
 
@@ -50,6 +54,10 @@ docs/
   ECOSYSTEM_OPERATING_MODEL.md
   INTEGRATION_SURFACES.md
   WEEKLY_OPERATING_LOOP.md
+  EVIDENCE_AND_SOURCE_INDEX.md
+  CURRICULUM_AND_LEARNING_PATHS.md
+  CONTRIBUTOR_ENTRYPOINTS.md
+  TRUST_ARCHITECTURE.md
   PROVENANCE_RECEIPTS.md
   PUBLICATION_PACK.md
 ```

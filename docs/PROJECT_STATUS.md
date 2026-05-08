@@ -15,6 +15,9 @@ customize their own fork.
 - Public website: GitHub Pages is configured; DNS for `nanoclaw.website` is
   still pending.
 - Ecosystem operating model: active as a public docs layer.
+- Evidence/source index: active as a public docs layer.
+- Curriculum and contributor entrypoints: active as a public docs layer.
+- Trust architecture: active as a public docs layer.
 - Integration surfaces: active as a public map for GitHub, Bitrix24, website,
   collection/NFT, x402/MCP/AgentKit, OpenTelemetry, and DeepTech links.
 
@@ -54,6 +57,8 @@ customize their own fork.
    payment rail, or minting workflow.
 9. Use the weekly operating loop to keep activity useful, reviewable, and
    low-noise.
+10. Keep source verification, curriculum, contributor entrypoints, and trust
+    architecture current as the project grows.
 
 ## Contribution Fit
 
