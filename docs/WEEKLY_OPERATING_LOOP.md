@@ -43,7 +43,8 @@ small public improvements, safe research, and clear human approval boundaries.
 3. Refresh the integration map and DeepTech queue.
 4. Review private/public boundaries for collection and NFT materials.
 5. Update the evidence/source index when a new claim is added.
-6. Confirm no risky action happened without explicit human approval.
+6. Route potentially patentable ideas to IP review before publication.
+7. Confirm no risky action happened without explicit human approval.
 
 ## Human-Approved Actions
 

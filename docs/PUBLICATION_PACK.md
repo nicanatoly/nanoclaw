@@ -24,6 +24,7 @@ what should stay private until review.
 | `docs/CONTRIBUTOR_ENTRYPOINTS.md` | Gives students, developers, researchers, maintainers, and partners a safe starting point. | Avoid private-only context and generic outreach. |
 | `docs/TRUST_ARCHITECTURE.md` | Defines evidence, reputation, operations, integration, and ethics boundaries. | Avoid hype, fake partnerships, and legal/financial overclaims. |
 | `docs/MCP_CLOUDFLARE_AGENTKIT_MAPPING.md` | Maps MCP tools, Cloudflare Agents state/workflows, and AgentKit wallet/action providers into NanoClaw approval boundaries. | Keep it research/planning only; do not imply production integration or wallet execution. |
+| `docs/PUBLICATION_AND_IP_GOVERNANCE.md` | Defines what is open-source, source-backed, IP-reviewed, private, cited, released, or whitepapered. | Do not treat it as legal advice; use it as a publication workflow. |
 
 ## Keep Private For Now
 
@@ -60,6 +61,7 @@ docs/
   CONTRIBUTOR_ENTRYPOINTS.md
   TRUST_ARCHITECTURE.md
   MCP_CLOUDFLARE_AGENTKIT_MAPPING.md
+  PUBLICATION_AND_IP_GOVERNANCE.md
   PROVENANCE_RECEIPTS.md
   PUBLICATION_PACK.md
 ```

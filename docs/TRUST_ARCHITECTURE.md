@@ -14,6 +14,7 @@ boundaries, and source-verifiable claims.
 | Entrypoints | Role-based docs and good first issues | Confusing or private-only onboarding |
 | Integration | PRs, issues, discussions, citations, feedback requests | Implied partnerships |
 | Ethics and legal boundaries | Human approval docs and publication pack | Hype, pricing claims, custody/yield language |
+| Publication/IP governance | Classification rules, IP review, releases, whitepapers | Accidental disclosure of patentable, strategic, or commercial material |
 
 ## Trust Rules
 
@@ -68,4 +69,5 @@ Before publishing, confirm:
 - `docs/CONTRIBUTOR_ENTRYPOINTS.md`
 - `docs/HUMAN_APPROVAL_BOUNDARIES.md`
 - `docs/PUBLICATION_PACK.md`
+- `docs/PUBLICATION_AND_IP_GOVERNANCE.md`
 - `docs/ECOSYSTEM_OPERATING_MODEL.md`

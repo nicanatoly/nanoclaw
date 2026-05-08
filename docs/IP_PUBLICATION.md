@@ -3,6 +3,9 @@
 This is not legal advice. It is project hygiene for publishing ideas, code,
 AI-assisted work, docs, and exhibition material around NanoClaw.
 
+For the current classification workflow, see
+`docs/PUBLICATION_AND_IP_GOVERNANCE.md`.
+
 ## Code
 
 NanoClaw currently uses the MIT License. That is simple and permissive.
