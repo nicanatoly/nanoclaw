@@ -15,6 +15,8 @@ is safe to publish, and which actions must remain human-approved.
 | GitHub Pages | Public website surface | `nanoclaw.website` after DNS/HTTPS setup |
 | Examples | Reusable patterns | Receipts, catalog schemas, safe metadata drafts |
 | Research notes | Structured learning | RWA, x402, MCP, provenance, DeepTech tracking |
+| Source index | Evidence base | Citations, literature notes, verification states |
+| Curriculum | Education layer | Modules, exercises, glossary, entrypoints |
 
 ## Operating Principle
 
@@ -60,6 +62,9 @@ GitHub must not contain:
 | Collection schemas | `examples/collection-schemas/` |
 | Public/private publication | `docs/PUBLICATION_PACK.md` |
 | Ecosystem integrations | `docs/INTEGRATION_MAP.md`, `docs/INTEGRATION_SURFACES.md` |
+| Evidence and citations | `docs/EVIDENCE_AND_SOURCE_INDEX.md` |
+| Education and entrypoints | `docs/CURRICULUM_AND_LEARNING_PATHS.md`, `docs/CONTRIBUTOR_ENTRYPOINTS.md` |
+| Trust architecture | `docs/TRUST_ARCHITECTURE.md` |
 
 ## Success Criteria
 
@@ -70,4 +75,7 @@ NanoClaw's GitHub presence is healthy when:
 - examples are public-safe and reusable;
 - external comments and PRs are narrow and useful;
 - private collection assets stay private;
-- each risky action has an explicit human-approval boundary.
+- each risky action has an explicit human-approval boundary;
+- claims are backed by source-verification states;
+- students, developers, researchers, maintainers, and partners each have a
+  clear entrypoint.
