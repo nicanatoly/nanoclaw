@@ -1,0 +1,81 @@
+{
+  "receipt_id": "nc-combined-approval-example-001",
+  "status": "draft",
+  "created_at": "2026-05-08T00:00:00Z",
+  "project": "NanoClaw",
+  "source_protocols": ["mcp", "cloudflare-agents", "agentkit", "nanoclaw"],
+  "mcp_tool_proposal": {
+    "tool_name": "prepare_wallet_action_summary",
+    "tool_description": "Prepare a public-safe summary of a proposed wallet-like action without connecting a wallet or submitting a transaction.",
+    "input_schema_summary": {
+      "type": "object",
+      "required": ["catalog_object_id", "proposed_action_type"],
+      "properties": {
+        "catalog_object_id": "public-safe object identifier",
+        "proposed_action_type": "draft_only_wallet_action"
+      }
+    },
+    "risk_level": "high",
+    "approval_required": true
+  },
+  "cloudflare_workflow_state": {
+    "workflow_name": "public_safe_action_review",
+    "step": "draft_prepared",
+    "state_before": "proposal_received",
+    "state_after": "awaiting_human_review",
+    "durable_state_note": "This example models a workflow milestone only; it does not deploy a Cloudflare workflow.",
+    "approval_checkpoint": true
+  },
+  "agentkit_wallet_action_draft": {
+    "action_provider_type": "wallet_action_provider",
+    "wallet_provider": "not_connected",
+    "network": "not_applicable",
+    "wallet_address": "not_recorded",
+    "transaction_hash": "not_applicable",
+    "amount": "not_applicable",
+    "execution_status": "draft_only",
+    "human_approval_required": true
+  },
+  "nanoclaw_approval_boundary": {
+    "approval_required": true,
+    "approval_reason": [
+      "wallet-like action",
+      "possible payment-like action",
+      "possible NFT minting/listing implication"
+    ],
+    "agent_allowed_actions": [
+      "draft public-safe summary",
+      "validate schema",
+      "prepare human-readable review note",
+      "record approval boundary"
+    ],
+    "agent_forbidden_actions": [
+      "connect wallet",
+      "sign transaction",
+      "submit transaction",
+      "mint NFT",
+      "list NFT",
+      "transfer asset",
+      "request or send payment"
+    ]
+  },
+  "public_private_boundary": {
+    "public_safe": true,
+    "private_assets_included": false,
+    "buyer_data_included": false,
+    "wallet_data_included": false,
+    "price_included": false,
+    "local_paths_included": false
+  },
+  "non_claims": [
+    "no wallet connection",
+    "no transaction",
+    "no payment",
+    "no custody",
+    "no investment claim",
+    "no partnership",
+    "no production integration",
+    "no rights-clearance claim"
+  ],
+  "notes": "This fake example maps an MCP-style tool proposal, a Cloudflare-style workflow state milestone, an AgentKit-style wallet-action draft, and a NanoClaw human approval boundary. It is documentation-only and does not execute anything."
+}
