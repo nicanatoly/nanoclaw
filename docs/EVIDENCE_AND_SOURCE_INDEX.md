@@ -40,6 +40,8 @@ they influence docs, examples, integrations, or public comments.
 | x402 payment flow | Official x402 docs or repo | Primary docs/source repo | `primary-source-confirmed` after review | Agentic payment boundaries | Keep PR #2186 monitored |
 | MCP tool vocabulary | MCP docs/spec repo | Specification/source repo | `unverified` until reviewed | Tool calls and approval language | Create local mapping note |
 | OpenTelemetry traces | OTel specification | Specification | `unverified` until reviewed | Action receipts and audit vocabulary | Extract receipt terms |
+| Cloudflare Agents state/workflows | Cloudflare Agents docs | Primary docs | `primary-source-confirmed` after review | Durable state and workflow vocabulary | Keep mapping note current |
+| AgentKit wallet/action providers | Coinbase AgentKit docs | Primary docs | `primary-source-confirmed` after review | Wallet approval and onchain action boundaries | Keep mapping note public-safe |
 
 ## Claim Discipline
 

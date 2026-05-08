@@ -51,6 +51,7 @@ work are still evolving.
 - [Safety model](docs/SAFETY_MODEL.md)
 - [Integration map](docs/INTEGRATION_MAP.md)
 - [Integration surfaces](docs/INTEGRATION_SURFACES.md)
+- [MCP, Cloudflare Agents, and AgentKit mapping](docs/MCP_CLOUDFLARE_AGENTKIT_MAPPING.md)
 - [Weekly operating loop](docs/WEEKLY_OPERATING_LOOP.md)
 - [Futures reconstruction](docs/FUTURES_RECONSTRUCTION.md)
 - [RWA and agentic payments research](research/RWA_AGENTIC_PAYMENTS_WATCHLIST.md)
