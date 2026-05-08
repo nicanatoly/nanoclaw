@@ -25,6 +25,9 @@ CNAME www    nicanatoly.github.io
 
 After DNS propagates, enable HTTPS enforcement in GitHub Pages settings.
 
+Detailed preparation checklist:
+`docs/NANOCLAW_WEBSITE_DNS_HTTPS_CHECKLIST.md`.
+
 ## Role Of The Site
 
 `nanoclaw.website` is intended as a visual landing page and exhibition surface.

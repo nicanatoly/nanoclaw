@@ -70,4 +70,8 @@ See `examples/agentic-payment-receipts/nc-public-catalog-entry-review.json` for
 a catalog-entry review receipt that contains no private asset, wallet address,
 payment, mint, or collector data.
 
+See `examples/agentic-payment-receipts/nc-combined-tool-workflow-wallet-approval.example.json`
+for a fake MCP tool proposal -> Cloudflare-style workflow state ->
+AgentKit-style wallet-action draft -> NanoClaw approval-boundary receipt.
+
 For structured catalog and edition drafts, see `examples/collection-schemas/`.

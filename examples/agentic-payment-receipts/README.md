@@ -27,6 +27,10 @@ any real payment or onchain step exists.
 - `nc-public-catalog-entry-review.json`: draft catalog-entry review where the
   agent can prepare a public-safe record but cannot publish private source
   assets or make custody, rights, payment, or edition claims.
+- `nc-combined-tool-workflow-wallet-approval.example.json`: fake combined
+  receipt mapping an MCP-style tool proposal to a Cloudflare-style workflow
+  state, an AgentKit-style wallet-action draft, and a NanoClaw human approval
+  boundary.
 
 See also: [Provenance Receipts](../../docs/PROVENANCE_RECEIPTS.md).
 

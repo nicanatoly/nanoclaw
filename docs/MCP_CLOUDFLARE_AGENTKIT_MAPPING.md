@@ -163,3 +163,7 @@ MCP tool proposal
 
 That example should remain documentation-only and should not connect to any
 wallet, remote agent runtime, or payment rail.
+
+Implemented public-safe example:
+
+- `examples/agentic-payment-receipts/nc-combined-tool-workflow-wallet-approval.example.json`

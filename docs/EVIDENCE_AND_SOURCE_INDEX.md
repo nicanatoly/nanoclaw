@@ -43,6 +43,37 @@ they influence docs, examples, integrations, or public comments.
 | Cloudflare Agents state/workflows | Cloudflare Agents docs | Primary docs | `primary-source-confirmed` after review | Durable state and workflow vocabulary | Keep mapping note current |
 | AgentKit wallet/action providers | Coinbase AgentKit docs | Primary docs | `primary-source-confirmed` after review | Wallet approval and onchain action boundaries | Keep mapping note public-safe |
 
+## Starter Source Index
+
+Reviewed: 2026-05-08.
+
+| Topic | Primary source | Verification state | What the source supports | NanoClaw use | Follow-up |
+| --- | --- | --- | --- | --- | --- |
+| MCP tool boundary | [MCP Tools specification](https://modelcontextprotocol.io/specification/2025-06-18/server/tools) | `primary-source-confirmed` | Tool discovery, tool schemas, `tools/call`, and safety notes around human-visible tool use. | Define public-safe tool proposal records and approval boundaries. | Re-check when the MCP dated specification changes. |
+| x402 protocol home | [x402 Foundation repository](https://github.com/x402-foundation/x402) | `primary-source-confirmed` | Open-source protocol repository, SDK layout, examples, and contribution surface. | Monitor docs-only contribution opportunities and map HTTP payment boundaries without moving funds. | Keep external PR monitoring low-noise and factual. |
+| x402 governance signal | [Linux Foundation x402 announcement](https://www.linuxfoundation.org/press/linux-foundation-is-launching-the-x402-foundation-and-welcoming-the-contribution-of-the-x402-protocol) | `primary-source-confirmed` | Public announcement that x402 moved toward Linux Foundation stewardship. | Treat x402 as a serious source to watch, not as a NanoClaw partnership claim. | Cite only as ecosystem context. |
+| x402 developer flow | [Coinbase x402 docs](https://docs.cdp.coinbase.com/x402/docs/welcome) | `primary-source-confirmed` | HTTP 402 payment flow, buyer/seller framing, and programmatic payment concept. | Build wallet-free receipts and human-approval gates for future payment-like actions. | Do not implement real payments without explicit approval. |
+| Cloudflare Agents workflows | [Cloudflare Agents Workflows](https://developers.cloudflare.com/agents/concepts/workflows/) | `primary-source-confirmed` | Workflow steps, durable execution framing, and state updates at milestones. | Model long-running NanoClaw review states and publication checkpoints. | Keep examples fake until a deployment is explicitly approved. |
+| Cloudflare Agents state | [Store and sync state](https://developers.cloudflare.com/agents/api-reference/store-and-sync-state/) | `primary-source-confirmed` | Agent state, SQL-backed history, and client synchronization vocabulary. | Separate small public state from larger private/internal records. | Avoid publishing internal CRM or private collection data. |
+| Cloudflare human approval | [Human in the Loop](https://developers.cloudflare.com/agents/concepts/human-in-the-loop/) | `primary-source-confirmed` | Approval pauses before tool execution. | Align NanoClaw stop-points for DNS, wallets, minting, payments, and private assets. | Compare examples with NanoClaw receipts before coding. |
+| AgentKit overview | [Coinbase AgentKit welcome](https://docs.cdp.coinbase.com/agent-kit/welcome) | `primary-source-confirmed` | Agent blockchain interaction framing and wallet/action vocabulary. | Define draft-only wallet action records without wallet access. | Do not connect wallets or sign transactions from docs examples. |
+| AgentKit architecture | [AgentKit architecture explained](https://docs.cdp.coinbase.com/agent-kit/core-concepts/architecture-explained) | `primary-source-confirmed` | Wallet providers, action providers, and framework extension structure. | Map wallet/action providers to NanoClaw approval boundaries. | Re-check before any code integration. |
+| OpenTelemetry specification | [OpenTelemetry specifications](https://opentelemetry.io/docs/specs/) | `primary-source-confirmed` | Specification index and stable telemetry vocabulary. | Borrow trace/span/event language for audit receipts and operational digests. | Keep NanoClaw wording compatible with current OTel docs. |
+| OpenTelemetry source repository | [OpenTelemetry specification repository](https://github.com/open-telemetry/opentelemetry-specification) | `primary-source-confirmed` | Source location for specification updates and issue/PR history. | Track terminology changes before adding observability examples. | Prefer exact spec links over broad summaries. |
+
+## Starter Literature Notes
+
+These notes are intentionally conservative. They are not implementation claims,
+partnership claims, or financial claims.
+
+| Topic | Fact supported by source | NanoClaw interpretation | Public-safe artifact |
+| --- | --- | --- | --- |
+| MCP | Tools can be described by schemas and invoked through a protocol boundary. | A NanoClaw tool proposal should be reviewable before it touches external systems. | Fake tool proposal receipt. |
+| x402 | x402 is a payment protocol and public open-source ecosystem to monitor. | NanoClaw can study payment-like approval boundaries without enabling payments. | Wallet-free payment receipt examples. |
+| Cloudflare Agents | Agent state and workflows are useful patterns for durable agent operations. | NanoClaw can model publication, DNS, and collection-review checkpoints as workflow states. | Workflow-state section in combined receipt example. |
+| AgentKit | Wallet/action providers are a useful vocabulary for onchain actions. | NanoClaw should keep wallet-capable actions draft-only until human approval. | AgentKit-style wallet-action draft. |
+| OpenTelemetry | OTel provides shared observability terms and specs. | NanoClaw receipts can later become traceable operational events. | Future trace/span mapping note. |
+
 ## Claim Discipline
 
 Every public research or integration note should answer:

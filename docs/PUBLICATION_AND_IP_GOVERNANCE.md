@@ -57,6 +57,9 @@ IP review should decide one of:
 - `seek-provisional-patent-review`;
 - `revise-before-publication`.
 
+Use `docs/IP_REVIEW_CHECKLIST.md` to record that decision before publishing a
+patent-sensitive or commercially sensitive idea.
+
 ## Whitepaper Rule
 
 Use timestamped whitepapers for key ideas that should be publicly traceable.
@@ -74,6 +77,9 @@ A whitepaper should include:
 - limitations;
 - explicit non-claims;
 - links to related releases, issues, and docs.
+
+Start from `docs/TIMESTAMPED_WHITEPAPER_TEMPLATE.md` for the public-safe
+structure.
 
 Do not use whitepapers to publish private assets, pricing strategy, buyer
 outreach, partner negotiations, wallet credentials, or legal claims that have
@@ -176,3 +182,5 @@ Unless separately reviewed, NanoClaw public materials should not claim:
 - `docs/PUBLICATION_PACK.md`
 - `docs/HUMAN_APPROVAL_BOUNDARIES.md`
 - `docs/IP_PUBLICATION.md`
+- `docs/TIMESTAMPED_WHITEPAPER_TEMPLATE.md`
+- `docs/IP_REVIEW_CHECKLIST.md`

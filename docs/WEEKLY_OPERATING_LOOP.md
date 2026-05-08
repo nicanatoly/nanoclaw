@@ -80,9 +80,11 @@ These actions must remain separately approved:
 
 ## Current Weekly Priority
 
-1. Keep `v0.1.3-collection-schemas` visible as the latest collection/provenance
-   milestone.
+1. Keep the latest publication/IP/source-governance release visible as the
+   current public infrastructure milestone.
 2. Monitor x402 PR #2186.
 3. Keep the MCP/Cloudflare Agents/AgentKit mapping current.
-4. Prepare the next owner-authored docs PR only if the change is narrow and
+4. Use the whitepaper template and IP review checklist before publishing key
+   ideas.
+5. Prepare the next owner-authored docs PR only if the change is narrow and
    public-safe.

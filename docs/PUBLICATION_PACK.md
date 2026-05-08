@@ -25,6 +25,10 @@ what should stay private until review.
 | `docs/TRUST_ARCHITECTURE.md` | Defines evidence, reputation, operations, integration, and ethics boundaries. | Avoid hype, fake partnerships, and legal/financial overclaims. |
 | `docs/MCP_CLOUDFLARE_AGENTKIT_MAPPING.md` | Maps MCP tools, Cloudflare Agents state/workflows, and AgentKit wallet/action providers into NanoClaw approval boundaries. | Keep it research/planning only; do not imply production integration or wallet execution. |
 | `docs/PUBLICATION_AND_IP_GOVERNANCE.md` | Defines what is open-source, source-backed, IP-reviewed, private, cited, released, or whitepapered. | Do not treat it as legal advice; use it as a publication workflow. |
+| `docs/TIMESTAMPED_WHITEPAPER_TEMPLATE.md` | Gives key public ideas a repeatable, dated, citable format. | Run IP review first when the idea may be patent-sensitive. |
+| `docs/IP_REVIEW_CHECKLIST.md` | Forces patent, defensive-publication, private, and open-source decisions before disclosure. | Keep it as project hygiene, not legal advice. |
+| `docs/NANOCLAW_WEBSITE_DNS_HTTPS_CHECKLIST.md` | Documents the safe DNS/HTTPS path for `nanoclaw.website`. | Do not change DNS or claim launch until HTTPS is verified. |
+| `examples/agentic-payment-receipts/nc-combined-tool-workflow-wallet-approval.example.json` | Shows a fake combined MCP -> workflow -> wallet-action -> approval-boundary receipt. | Confirm it contains no wallet address, transaction, payment, private asset, or production-integration claim. |
 
 ## Keep Private For Now
 
@@ -62,6 +66,9 @@ docs/
   TRUST_ARCHITECTURE.md
   MCP_CLOUDFLARE_AGENTKIT_MAPPING.md
   PUBLICATION_AND_IP_GOVERNANCE.md
+  TIMESTAMPED_WHITEPAPER_TEMPLATE.md
+  IP_REVIEW_CHECKLIST.md
+  NANOCLAW_WEBSITE_DNS_HTTPS_CHECKLIST.md
   PROVENANCE_RECEIPTS.md
   PUBLICATION_PACK.md
 ```
