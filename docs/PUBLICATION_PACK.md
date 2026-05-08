@@ -16,6 +16,9 @@ what should stay private until review.
 | `examples/collection-schemas/` | Provides public-safe catalog object and edition draft schemas. | Confirm examples contain no private images, prices, buyer data, wallet data, or rights-clearance claims. |
 | `docs/PROVENANCE_RECEIPTS.md` | Explains the public-safe receipt vocabulary for collection review, catalog entries, and edition drafts. | Confirm it does not imply custody, minting, payment, ownership transfer, or rights clearance. |
 | `docs/PUBLICATION_PACK.md` | Makes the repo's publication boundary explicit. | Update this list as the public/private split changes. |
+| `docs/ECOSYSTEM_OPERATING_MODEL.md` | Explains why GitHub is the public engineering memory for NanoClaw. | Keep public/private and human-approval boundaries explicit. |
+| `docs/INTEGRATION_SURFACES.md` | Maps GitHub, Bitrix24, website, collection/NFT, x402/MCP/AgentKit, OpenTelemetry, and DeepTech surfaces. | Avoid implying partnerships or production integrations that do not exist. |
+| `docs/WEEKLY_OPERATING_LOOP.md` | Defines the low-noise weekly cadence for public work. | Keep risky actions behind explicit human approval. |
 
 ## Keep Private For Now
 
@@ -44,6 +47,9 @@ examples/
     public-safe-catalog-object.example.json
     limited-edition-draft.example.json
 docs/
+  ECOSYSTEM_OPERATING_MODEL.md
+  INTEGRATION_SURFACES.md
+  WEEKLY_OPERATING_LOOP.md
   PROVENANCE_RECEIPTS.md
   PUBLICATION_PACK.md
 ```

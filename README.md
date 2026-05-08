@@ -43,8 +43,11 @@ skills-as-branches model are usable; new integrations and public presentation
 work are still evolving.
 
 - [Project status and roadmap](docs/PROJECT_STATUS.md)
+- [Ecosystem operating model](docs/ECOSYSTEM_OPERATING_MODEL.md)
 - [Safety model](docs/SAFETY_MODEL.md)
 - [Integration map](docs/INTEGRATION_MAP.md)
+- [Integration surfaces](docs/INTEGRATION_SURFACES.md)
+- [Weekly operating loop](docs/WEEKLY_OPERATING_LOOP.md)
 - [Futures reconstruction](docs/FUTURES_RECONSTRUCTION.md)
 - [RWA and agentic payments research](research/RWA_AGENTIC_PAYMENTS_WATCHLIST.md)
 - [Human approval boundaries](docs/HUMAN_APPROVAL_BOUNDARIES.md)

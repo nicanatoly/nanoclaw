@@ -21,6 +21,11 @@ open-source projects rather than broad promotional outreach.
 | `ITSpecialist111/ai_automation_suggester` | AI-generated Home Assistant suggestions | Study suggestion-first UX.                |
 | `winstonkoh87/Athena-Public`              | Local-first agent OS / memory           | Compare inspectable memory patterns.      |
 | `osendowment/foundation`                  | Open-source funding                     | Learn small sponsor / donor patterns.     |
+| `x402-foundation/x402`                    | HTTP-native agentic payments            | Maintain narrow docs-only contribution path. |
+| `modelcontextprotocol/modelcontextprotocol` | Tool and context protocol vocabulary   | Study approval-boundary and tool-call language. |
+| `cloudflare/agents`                       | Edge agent runtime and state            | Study durable workflows and permission boundaries. |
+| `coinbase/agentkit`                       | Wallet-capable agent tooling            | Study wallet approval boundaries without wallet actions. |
+| `open-telemetry/opentelemetry-specification` | Traces and event vocabulary           | Borrow action-receipt and audit language. |
 
 ## First Questions To Ask
 
@@ -46,3 +51,9 @@ is:
 
 Read first. Ask one narrow question. Turn useful answers into docs, tests, or
 skills. Avoid drive-by promotion.
+
+## Related Operating Docs
+
+- [Ecosystem operating model](ECOSYSTEM_OPERATING_MODEL.md)
+- [Integration surfaces](INTEGRATION_SURFACES.md)
+- [Weekly operating loop](WEEKLY_OPERATING_LOOP.md)
